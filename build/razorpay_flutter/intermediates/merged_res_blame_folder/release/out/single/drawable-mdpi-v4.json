@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "C:\\Users\\Alphawizz\\Downloads\\Ettop_user\\Ettop_user\\Ettop_user\\build\\razorpay_flutter\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png",
+        "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\6e603ac34dc9297da63cc71047da5cc8\\transformed\\core-1.6.0\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Alphawizz\\Downloads\\Ettop_user\\Ettop_user\\Ettop_user\\build\\razorpay_flutter\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\googleg_standard_color_18.png",
+        "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\2858ebc9093104f00c2db3d4a6549a6f\\transformed\\jetified-play-services-base-17.5.0\\res\\drawable-mdpi-v4\\googleg_standard_color_18.png"
+    },
+    {
+        "merged": "C:\\Users\\Alphawizz\\Downloads\\Ettop_user\\Ettop_user\\Ettop_user\\build\\razorpay_flutter\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\notification_bg_low_normal.9.png",
+        "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\6e603ac34dc9297da63cc71047da5cc8\\transformed\\core-1.6.0\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Alphawizz\\Downloads\\Ettop_user\\Ettop_user\\Ettop_user\\build\\razorpay_flutter\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png",
+        "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\2858ebc9093104f00c2db3d4a6549a6f\\transformed\\jetified-play-services-base-17.5.0\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Alphawizz\\Downloads\\Ettop_user\\Ettop_user\\Ettop_user\\build\\razorpay_flutter\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\googleg_disabled_color_18.png",
+        "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\2858ebc9093104f00c2db3d4a6549a6f\\transformed\\jetified-play-services-base-17.5.0\\res\\drawable-mdpi-v4\\googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "C:\\Users\\Alphawizz\\Downloads\\Ettop_user\\Ettop_user\\Ettop_user\\build\\razorpay_flutter\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png",
+        "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\2858ebc9093104f00c2db3d4a6549a6f\\transformed\\jetified-play-services-base-17.5.0\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Alphawizz\\Downloads\\Ettop_user\\Ettop_user\\Ettop_user\\build\\razorpay_flutter\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\rzp_logo.png",
+        "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\779d35bba1cab63fb1a10eae06fed81d\\transformed\\jetified-checkout-1.6.19\\res\\drawable-mdpi-v4\\rzp_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Alphawizz\\Downloads\\Ettop_user\\Ettop_user\\Ettop_user\\build\\razorpay_flutter\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png",
+        "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\6e603ac34dc9297da63cc71047da5cc8\\transformed\\core-1.6.0\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Alphawizz\\Downloads\\Ettop_user\\Ettop_user\\Ettop_user\\build\\razorpay_flutter\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png",
+        "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\6e603ac34dc9297da63cc71047da5cc8\\transformed\\core-1.6.0\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\Alphawizz\\Downloads\\Ettop_user\\Ettop_user\\Ettop_user\\build\\razorpay_flutter\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png",
+        "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\2858ebc9093104f00c2db3d4a6549a6f\\transformed\\jetified-play-services-base-17.5.0\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Alphawizz\\Downloads\\Ettop_user\\Ettop_user\\Ettop_user\\build\\razorpay_flutter\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png",
+        "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\2858ebc9093104f00c2db3d4a6549a6f\\transformed\\jetified-play-services-base-17.5.0\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Alphawizz\\Downloads\\Ettop_user\\Ettop_user\\Ettop_user\\build\\razorpay_flutter\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\notification_bg_normal.9.png",
+        "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\6e603ac34dc9297da63cc71047da5cc8\\transformed\\core-1.6.0\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
+    }
+]

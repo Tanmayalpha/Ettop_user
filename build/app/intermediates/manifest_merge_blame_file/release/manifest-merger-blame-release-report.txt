@@ -1,0 +1,1260 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.eatop_user"
+4    android:versionCode="9"
+5    android:versionName="3.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:5:5-81
+12-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:5:22-78
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:6:5-79
+13-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:6:22-76
+14    <uses-permission
+14-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:7:5-80
+15        android:name="android.permission.READ_EXTERNAL_STORAGE"
+15-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:7:22-77
+16        android:maxSdkVersion="32" />
+16-->[:open_filex] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\open_filex\intermediates\library_manifest\release\AndroidManifest.xml:10:9-35
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:8:5-81
+17-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:8:22-78
+18    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+18-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:9:5-71
+18-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:9:22-68
+19    <uses-permission android:name="android.permission.WAKE_LOCK" />
+19-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:10:8-71
+19-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:10:25-68
+20    <uses-permission android:name="android.permission.VIBRATE" />
+20-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:11:5-66
+20-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:11:22-63
+21
+22    <queries>
+22-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:13:5-17:15
+23        <intent>
+23-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:14:9-16:18
+24            <action android:name="android.speech.RecognitionService" />
+24-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:15:13-72
+24-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:15:21-69
+25        </intent>
+26        <intent>
+26-->[:file_picker] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:10:9-14:18
+27            <action android:name="android.intent.action.GET_CONTENT" />
+27-->[:file_picker] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:11:13-72
+27-->[:file_picker] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:11:21-69
+28
+29            <data android:mimeType="*/*" />
+29-->[:file_picker] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:13:13-44
+29-->[:file_picker] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:13:19-41
+30        </intent>
+31        <intent>
+31-->[:flutter_inappwebview] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:8:9-10:18
+32            <action android:name="android.support.customtabs.action.CustomTabsService" />
+32-->[:flutter_inappwebview] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:9:13-90
+32-->[:flutter_inappwebview] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:9:21-87
+33        </intent> <!-- Added to check if Chrome is installed for browser-based payment authentication (e.g. 3DS1). -->
+34        <package android:name="com.android.chrome" /> <!-- Specific apps you interact with, eg: -->
+34-->[com.stripe:payments-core:16.10.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\688ae457e95da5bba61e7e99564571a1\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:13:9-54
+34-->[com.stripe:payments-core:16.10.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\688ae457e95da5bba61e7e99564571a1\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:13:18-51
+35        <package android:name="com.paytm.pgsdk.TransactionManager.PAYTM_APP_PACKAGE" />
+35-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\Alphawizz\.gradle\caches\transforms-3\af3c1a2de9a7a7c80e2302cbe782707e\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:12:9-88
+35-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\Alphawizz\.gradle\caches\transforms-3\af3c1a2de9a7a7c80e2302cbe782707e\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:12:18-85
+36        <!--
+37             Specific intents you query for,
+38             eg: for a custom share UI
+39        -->
+40        <intent>
+40-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\Alphawizz\.gradle\caches\transforms-3\af3c1a2de9a7a7c80e2302cbe782707e\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:17:9-19:18
+41            <action android:name="android.intent.action.MAIN" />
+41-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:52:17-69
+41-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:52:25-66
+42        </intent>
+43        <intent>
+43-->[com.razorpay:checkout:1.6.19] C:\Users\Alphawizz\.gradle\caches\transforms-3\779d35bba1cab63fb1a10eae06fed81d\transformed\jetified-checkout-1.6.19\AndroidManifest.xml:12:9-18:18
+44            <action android:name="android.intent.action.VIEW" />
+44-->[:stripe_payment] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:27:17-69
+44-->[:stripe_payment] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:27:25-66
+45
+46            <data
+46-->[:file_picker] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:13:13-44
+47                android:mimeType="*/*"
+47-->[:file_picker] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:13:19-41
+48                android:scheme="*" />
+49        </intent>
+50        <intent>
+50-->[com.razorpay:checkout:1.6.19] C:\Users\Alphawizz\.gradle\caches\transforms-3\779d35bba1cab63fb1a10eae06fed81d\transformed\jetified-checkout-1.6.19\AndroidManifest.xml:19:9-28:18
+51            <action android:name="android.intent.action.VIEW" />
+51-->[:stripe_payment] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:27:17-69
+51-->[:stripe_payment] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:27:25-66
+52
+53            <category android:name="android.intent.category.BROWSABLE" />
+53-->[:stripe_payment] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:30:17-78
+53-->[:stripe_payment] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:30:27-75
+54
+55            <data
+55-->[:file_picker] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:13:13-44
+56                android:host="pay"
+57                android:mimeType="*/*"
+57-->[:file_picker] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:13:19-41
+58                android:scheme="upi" />
+59        </intent>
+60        <intent>
+60-->[com.razorpay:checkout:1.6.19] C:\Users\Alphawizz\.gradle\caches\transforms-3\779d35bba1cab63fb1a10eae06fed81d\transformed\jetified-checkout-1.6.19\AndroidManifest.xml:32:9-36:18
+61            <action android:name="android.intent.action.SEND" />
+61-->[com.razorpay:checkout:1.6.19] C:\Users\Alphawizz\.gradle\caches\transforms-3\779d35bba1cab63fb1a10eae06fed81d\transformed\jetified-checkout-1.6.19\AndroidManifest.xml:33:13-65
+61-->[com.razorpay:checkout:1.6.19] C:\Users\Alphawizz\.gradle\caches\transforms-3\779d35bba1cab63fb1a10eae06fed81d\transformed\jetified-checkout-1.6.19\AndroidManifest.xml:33:21-62
+62
+63            <data android:mimeType="*/*" />
+63-->[:file_picker] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:13:13-44
+63-->[:file_picker] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:13:19-41
+64        </intent> <!-- Needs to be explicitly declared on Android R+ -->
+65        <package android:name="com.google.android.apps.maps" />
+65-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\f7b3126fb18363d9332994721ee098a5\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+65-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\f7b3126fb18363d9332994721ee098a5\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+66    </queries>
+67
+68    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Permissions options for the `notification` group -->
+68-->[:firebase_messaging] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:9:5-79
+68-->[:firebase_messaging] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:9:22-76
+69    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+69-->[:firebase_messaging] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:11:5-77
+69-->[:firebase_messaging] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:11:22-74
+70    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+70-->[:flutter_local_notifications] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:7:5-81
+70-->[:flutter_local_notifications] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:7:22-78
+71    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+71-->[:flutter_local_notifications] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:9:5-81
+71-->[:flutter_local_notifications] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:9:22-78
+72    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+72-->[:flutter_local_notifications] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:10:5-79
+72-->[:flutter_local_notifications] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:10:22-76
+73    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+73-->[:speech_to_text] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\speech_to_text\intermediates\library_manifest\release\AndroidManifest.xml:7:5-76
+73-->[:speech_to_text] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\speech_to_text\intermediates\library_manifest\release\AndroidManifest.xml:7:22-73
+74    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+74-->[:open_filex] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\open_filex\intermediates\library_manifest\release\AndroidManifest.xml:11:5-76
+74-->[:open_filex] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\open_filex\intermediates\library_manifest\release\AndroidManifest.xml:11:22-73
+75    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+75-->[:open_filex] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\open_filex\intermediates\library_manifest\release\AndroidManifest.xml:12:5-75
+75-->[:open_filex] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\open_filex\intermediates\library_manifest\release\AndroidManifest.xml:12:22-72
+76    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+76-->[:open_filex] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\open_filex\intermediates\library_manifest\release\AndroidManifest.xml:13:5-75
+76-->[:open_filex] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\open_filex\intermediates\library_manifest\release\AndroidManifest.xml:13:22-72
+77    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+77-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Alphawizz\.gradle\caches\transforms-3\2e56315627870b08fdae7ca6a48167ba\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:10:5-75
+77-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Alphawizz\.gradle\caches\transforms-3\2e56315627870b08fdae7ca6a48167ba\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:10:22-72
+78    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+78-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\28bea37ecfe4aff5e8e820c643e6ea0e\transformed\jetified-firebase-messaging-23.2.1\AndroidManifest.xml:26:5-82
+78-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\28bea37ecfe4aff5e8e820c643e6ea0e\transformed\jetified-firebase-messaging-23.2.1\AndroidManifest.xml:26:22-79
+79
+80    <uses-feature
+80-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\f7b3126fb18363d9332994721ee098a5\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+81        android:glEsVersion="0x00020000"
+81-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\f7b3126fb18363d9332994721ee098a5\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+82        android:required="true" />
+82-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\f7b3126fb18363d9332994721ee098a5\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+83
+84    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+84-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:5-77
+84-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:22-74
+85
+86    <permission
+86-->[androidx.core:core:1.10.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\67bc583b7427d476fe4008b86cb8c824\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+87        android:name="com.eatop_user.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+87-->[androidx.core:core:1.10.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\67bc583b7427d476fe4008b86cb8c824\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+88        android:protectionLevel="signature" />
+88-->[androidx.core:core:1.10.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\67bc583b7427d476fe4008b86cb8c824\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+89
+90    <uses-permission android:name="com.eatop_user.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+90-->[androidx.core:core:1.10.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\67bc583b7427d476fe4008b86cb8c824\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+90-->[androidx.core:core:1.10.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\67bc583b7427d476fe4008b86cb8c824\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+91
+92    <application
+92-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:18:5-78:19
+93        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+93-->[androidx.core:core:1.10.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\67bc583b7427d476fe4008b86cb8c824\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+94        android:exported="true"
+94-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:23:9-32
+95        android:icon="@mipmap/ic_launcher"
+95-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:19:9-43
+96        android:label="Eatop"
+96-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:20:9-30
+97        android:requestLegacyExternalStorage="true"
+97-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:22:9-52
+98        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+98-->[:stripe_payment] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:11:18-74
+99        android:usesCleartextTraffic="true" >
+99-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:21:9-44
+100        <meta-data
+100-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:25:9-123
+101            android:name="com.google.android.geo.API_KEY"
+101-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:25:20-65
+102            android:value="AIzaSyDi_XlHtopewZHtpWWxIO-EQ7mCegHr5o0" />
+102-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:25:66-121
+103
+104        <activity
+104-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:26:9-59:20
+105            android:name="com.eatop_user.MainActivity"
+105-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:27:13-41
+106            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+106-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:28:13-163
+107            android:exported="true"
+107-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:32:13-36
+108            android:hardwareAccelerated="true"
+108-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:29:13-47
+109            android:launchMode="singleTop"
+109-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:30:13-43
+110            android:theme="@style/LaunchTheme"
+110-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:31:13-47
+111            android:windowSoftInputMode="adjustResize" >
+111-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:33:13-55
+112
+113            <!--
+114                 Specifies an Android theme to apply to this Activity as soon as
+115                 the Android process has started. This theme is visible to the user
+116                 while the Flutter UI initializes. After that, this theme continues
+117                 to determine the Window background behind the Flutter UI.
+118            -->
+119            <meta-data
+119-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:39:13-41:57
+120                android:name="io.flutter.embedding.android.NormalTheme"
+120-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:40:17-72
+121                android:resource="@style/NormalTheme" />
+121-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:41:17-54
+122            <!--
+123                 Displays an Android View that continues showing the launch screen
+124                 Drawable until Flutter paints its first frame, then this splash
+125                 screen fades out. A splash screen is useful to avoid any visual
+126                 gap between the end of Android's launch screen and the painting of
+127                 Flutter's first frame.
+128            -->
+129            <!--
+130                <meta-data
+131                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+132                android:resource="@drawable/launch_background" />
+133            -->
+134
+135            <intent-filter>
+135-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:51:13-54:29
+136                <action android:name="android.intent.action.MAIN" />
+136-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:52:17-69
+136-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:52:25-66
+137
+138                <category android:name="android.intent.category.LAUNCHER" />
+138-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:53:17-77
+138-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:53:27-74
+139            </intent-filter>
+140            <intent-filter>
+140-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:55:13-58:29
+141                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+141-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:56:17-69
+141-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:56:25-66
+142
+143                <category android:name="android.intent.category.DEFAULT" />
+143-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:57:17-76
+143-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:57:27-73
+144            </intent-filter>
+145        </activity>
+146        <activity
+146-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:60:9-117
+147            android:name="com.stripe.android.payments.StripeBrowserLauncherActivity"
+147-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:60:19-91
+148            android:exported="true"
+148-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:60:92-115
+149            android:launchMode="singleTop"
+149-->[com.stripe:payments-core:16.10.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\688ae457e95da5bba61e7e99564571a1\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:40:13-43
+150            android:theme="@style/StripeTransparentTheme" >
+150-->[com.stripe:payments-core:16.10.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\688ae457e95da5bba61e7e99564571a1\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:41:13-58
+151            <intent-filter>
+151-->[com.stripe:payments-core:16.10.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\688ae457e95da5bba61e7e99564571a1\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:42:13-53:29
+152                <action android:name="android.intent.action.VIEW" />
+152-->[:stripe_payment] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:27:17-69
+152-->[:stripe_payment] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:27:25-66
+153
+154                <category android:name="android.intent.category.DEFAULT" />
+154-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:57:17-76
+154-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:57:27-73
+155                <category android:name="android.intent.category.BROWSABLE" />
+155-->[:stripe_payment] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:30:17-78
+155-->[:stripe_payment] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:30:27-75
+156
+157                <!-- Must match `DefaultReturnUrl#value`. -->
+158                <data
+158-->[:file_picker] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:13:13-44
+159                    android:host="payment_return_url"
+160                    android:path="/com.eatop_user"
+161                    android:scheme="stripesdk" />
+162            </intent-filter>
+163        </activity>
+164        <activity android:name="com.avinash.gotluru.cc_avenue.Framework.WebViewActivity" />
+164-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:61:9-92
+164-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:61:19-89
+165
+166        <service
+166-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:62:9-65:43
+167            android:name="com.dexterous.flutterlocalnotifications.ForegroundService"
+167-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:63:13-85
+168            android:exported="false"
+168-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:64:13-37
+169            android:stopWithTask="false" />
+169-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:65:13-41
+170
+171        <meta-data
+171-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:67:9-69:59
+172            android:name="com.google.firebase.messaging.default_notification_channel_id"
+172-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:68:13-89
+173            android:value="default_notification_channel" />
+173-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:69:13-57
+174        <meta-data
+174-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:70:9-72:56
+175            android:name="com.google.firebase.messaging.default_notification_icon"
+175-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:71:13-83
+176            android:resource="@drawable/ic_launcher" />
+176-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:72:13-53
+177        <!--
+178             Don't delete the meta-data below.
+179             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+180        -->
+181        <meta-data
+181-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:75:9-77:33
+182            android:name="flutterEmbedding"
+182-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:76:13-44
+183            android:value="2" />
+183-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:77:13-30
+184
+185        <service
+185-->[:firebase_database] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_database\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
+186            android:name="com.google.firebase.components.ComponentDiscoveryService"
+186-->[:firebase_database] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_database\intermediates\library_manifest\release\AndroidManifest.xml:8:18-89
+187            android:directBootAware="true"
+187-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Alphawizz\.gradle\caches\transforms-3\ec345d869f93d318b763b0f07695c92e\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:34:13-43
+188            android:exported="false" >
+188-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\5afafacdffe740e6eae925ac3685be28\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:68:13-37
+189            <meta-data
+189-->[:firebase_database] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_database\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+190                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+190-->[:firebase_database] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_database\intermediates\library_manifest\release\AndroidManifest.xml:10:17-127
+191                android:value="com.google.firebase.components.ComponentRegistrar" />
+191-->[:firebase_database] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_database\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+192            <meta-data
+192-->[:firebase_messaging] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:36:13-38:85
+193                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+193-->[:firebase_messaging] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:37:17-128
+194                android:value="com.google.firebase.components.ComponentRegistrar" />
+194-->[:firebase_messaging] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:38:17-82
+195            <meta-data
+195-->[:firebase_dynamic_links] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_dynamic_links\intermediates\library_manifest\release\AndroidManifest.xml:11:13-13:85
+196                android:name="com.google.firebase.components:io.flutter.plugins.firebase.dynamiclinks.FlutterFirebaseAppRegistrar"
+196-->[:firebase_dynamic_links] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_dynamic_links\intermediates\library_manifest\release\AndroidManifest.xml:12:17-131
+197                android:value="com.google.firebase.components.ComponentRegistrar" />
+197-->[:firebase_dynamic_links] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_dynamic_links\intermediates\library_manifest\release\AndroidManifest.xml:13:17-82
+198            <meta-data
+198-->[:firebase_auth] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+199                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+199-->[:firebase_auth] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:10:17-124
+200                android:value="com.google.firebase.components.ComponentRegistrar" />
+200-->[:firebase_auth] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+201            <meta-data
+201-->[:firebase_core] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+202                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+202-->[:firebase_core] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:10:17-124
+203                android:value="com.google.firebase.components.ComponentRegistrar" />
+203-->[:firebase_core] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+204            <meta-data
+204-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\5afafacdffe740e6eae925ac3685be28\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:69:13-71:85
+205                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+205-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\5afafacdffe740e6eae925ac3685be28\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:70:17-109
+206                android:value="com.google.firebase.components.ComponentRegistrar" />
+206-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\5afafacdffe740e6eae925ac3685be28\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:71:17-82
+207            <meta-data
+207-->[com.google.firebase:firebase-database:20.2.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\b2de69e576897589696e15f9d2edcdc2\transformed\jetified-firebase-database-20.2.2\AndroidManifest.xml:31:13-33:85
+208                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+208-->[com.google.firebase:firebase-database:20.2.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\b2de69e576897589696e15f9d2edcdc2\transformed\jetified-firebase-database-20.2.2\AndroidManifest.xml:32:17-109
+209                android:value="com.google.firebase.components.ComponentRegistrar" />
+209-->[com.google.firebase:firebase-database:20.2.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\b2de69e576897589696e15f9d2edcdc2\transformed\jetified-firebase-database-20.2.2\AndroidManifest.xml:33:17-82
+210            <meta-data
+210-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\28bea37ecfe4aff5e8e820c643e6ea0e\transformed\jetified-firebase-messaging-23.2.1\AndroidManifest.xml:53:13-55:85
+211                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+211-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\28bea37ecfe4aff5e8e820c643e6ea0e\transformed\jetified-firebase-messaging-23.2.1\AndroidManifest.xml:54:17-119
+212                android:value="com.google.firebase.components.ComponentRegistrar" />
+212-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\28bea37ecfe4aff5e8e820c643e6ea0e\transformed\jetified-firebase-messaging-23.2.1\AndroidManifest.xml:55:17-82
+213            <meta-data
+213-->[com.google.firebase:firebase-dynamic-links:21.1.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\508faed613c396389766e9a9923ca513\transformed\jetified-firebase-dynamic-links-21.1.0\AndroidManifest.xml:26:13-28:85
+214                android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar"
+214-->[com.google.firebase:firebase-dynamic-links:21.1.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\508faed613c396389766e9a9923ca513\transformed\jetified-firebase-dynamic-links-21.1.0\AndroidManifest.xml:27:17-133
+215                android:value="com.google.firebase.components.ComponentRegistrar" />
+215-->[com.google.firebase:firebase-dynamic-links:21.1.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\508faed613c396389766e9a9923ca513\transformed\jetified-firebase-dynamic-links-21.1.0\AndroidManifest.xml:28:17-82
+216            <meta-data
+216-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Alphawizz\.gradle\caches\transforms-3\c2467f1b4403f9b8514742829e407e6a\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+217                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+217-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Alphawizz\.gradle\caches\transforms-3\c2467f1b4403f9b8514742829e407e6a\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+218                android:value="com.google.firebase.components.ComponentRegistrar" />
+218-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Alphawizz\.gradle\caches\transforms-3\c2467f1b4403f9b8514742829e407e6a\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+219            <meta-data
+219-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\91ff3a4de86d94e971b1a4d6def11edf\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:32:13-34:85
+220                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+220-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\91ff3a4de86d94e971b1a4d6def11edf\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:33:17-96
+221                android:value="com.google.firebase.components.ComponentRegistrar" />
+221-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\91ff3a4de86d94e971b1a4d6def11edf\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:34:17-82
+222            <meta-data
+222-->[com.google.firebase:firebase-installations:17.1.4] C:\Users\Alphawizz\.gradle\caches\transforms-3\70cd8c7a3ff7e4fa43dce5eaabaa06bc\transformed\jetified-firebase-installations-17.1.4\AndroidManifest.xml:15:13-17:85
+223                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+223-->[com.google.firebase:firebase-installations:17.1.4] C:\Users\Alphawizz\.gradle\caches\transforms-3\70cd8c7a3ff7e4fa43dce5eaabaa06bc\transformed\jetified-firebase-installations-17.1.4\AndroidManifest.xml:16:17-127
+224                android:value="com.google.firebase.components.ComponentRegistrar" />
+224-->[com.google.firebase:firebase-installations:17.1.4] C:\Users\Alphawizz\.gradle\caches\transforms-3\70cd8c7a3ff7e4fa43dce5eaabaa06bc\transformed\jetified-firebase-installations-17.1.4\AndroidManifest.xml:17:17-82
+225        </service>
+226        <service
+226-->[:firebase_messaging] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:14:9-17:72
+227            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+227-->[:firebase_messaging] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:15:13-107
+228            android:exported="false"
+228-->[:firebase_messaging] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:16:13-37
+229            android:permission="android.permission.BIND_JOB_SERVICE" />
+229-->[:firebase_messaging] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:17:13-69
+230        <service
+230-->[:firebase_messaging] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:18:9-24:19
+231            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+231-->[:firebase_messaging] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:19:13-97
+232            android:exported="false" >
+232-->[:firebase_messaging] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:20:13-37
+233            <intent-filter>
+233-->[:firebase_messaging] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:21:13-23:29
+234                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+234-->[:firebase_messaging] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:22:17-78
+234-->[:firebase_messaging] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:22:25-75
+235            </intent-filter>
+236        </service>
+237
+238        <receiver
+238-->[:firebase_messaging] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:26:9-33:20
+239            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+239-->[:firebase_messaging] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:27:13-98
+240            android:exported="true"
+240-->[:firebase_messaging] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:28:13-36
+241            android:permission="com.google.android.c2dm.permission.SEND" >
+241-->[:firebase_messaging] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:29:13-73
+242            <intent-filter>
+242-->[:firebase_messaging] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:30:13-32:29
+243                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+243-->[:firebase_messaging] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:31:17-81
+243-->[:firebase_messaging] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:31:25-78
+244            </intent-filter>
+245        </receiver>
+246
+247        <provider
+247-->[:firebase_messaging] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:41:9-45:38
+248            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+248-->[:firebase_messaging] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:42:13-102
+249            android:authorities="com.eatop_user.flutterfirebasemessaginginitprovider"
+249-->[:firebase_messaging] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:43:13-88
+250            android:exported="false"
+250-->[:firebase_messaging] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:44:13-37
+251            android:initOrder="99" />
+251-->[:firebase_messaging] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:45:13-35
+252
+253        <service
+253-->[:geolocator_android] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:56
+254            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+254-->[:geolocator_android] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:9:13-77
+255            android:enabled="true"
+255-->[:geolocator_android] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:10:13-35
+256            android:exported="false"
+256-->[:geolocator_android] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:11:13-37
+257            android:foregroundServiceType="location" />
+257-->[:geolocator_android] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:12:13-53
+258
+259        <receiver
+259-->[:flutter_local_notifications] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:14:9-16:40
+260            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+260-->[:flutter_local_notifications] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:15:13-97
+261            android:exported="false" />
+261-->[:flutter_local_notifications] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:16:13-37
+262        <receiver
+262-->[:flutter_local_notifications] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:17:9-26:20
+263            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+263-->[:flutter_local_notifications] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:18:13-101
+264            android:exported="false" >
+264-->[:flutter_local_notifications] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:19:13-37
+265            <intent-filter>
+265-->[:flutter_local_notifications] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:20:13-25:29
+266                <action android:name="android.intent.action.BOOT_COMPLETED" />
+266-->[:flutter_local_notifications] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:21:17-79
+266-->[:flutter_local_notifications] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:21:25-76
+267                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+267-->[:flutter_local_notifications] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:22:17-84
+267-->[:flutter_local_notifications] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:22:25-81
+268                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+268-->[:flutter_local_notifications] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:23:17-82
+268-->[:flutter_local_notifications] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:23:25-79
+269                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+269-->[:flutter_local_notifications] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:24:17-82
+269-->[:flutter_local_notifications] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:24:25-79
+270            </intent-filter>
+271        </receiver>
+272
+273        <activity
+273-->[:flutter_inappwebview] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:14:9-18:47
+274            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+274-->[:flutter_inappwebview] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:15:13-104
+275            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+275-->[:flutter_inappwebview] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:16:13-137
+276            android:exported="false"
+276-->[:flutter_inappwebview] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:17:13-37
+277            android:theme="@style/AppTheme" />
+277-->[:flutter_inappwebview] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:18:13-44
+278        <activity
+278-->[:flutter_inappwebview] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:19:9-22:55
+279            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+279-->[:flutter_inappwebview] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:20:13-112
+280            android:exported="false"
+280-->[:flutter_inappwebview] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:21:13-37
+281            android:theme="@style/ThemeTransparent" />
+281-->[:flutter_inappwebview] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:22:13-52
+282        <activity
+282-->[:flutter_inappwebview] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:23:9-26:55
+283            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+283-->[:flutter_inappwebview] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:24:13-106
+284            android:exported="false"
+284-->[:flutter_inappwebview] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:25:13-37
+285            android:theme="@style/ThemeTransparent" />
+285-->[:flutter_inappwebview] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:26:13-52
+286        <activity
+286-->[:flutter_inappwebview] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:27:9-31:55
+287            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+287-->[:flutter_inappwebview] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:28:13-126
+288            android:exported="false"
+288-->[:flutter_inappwebview] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:29:13-37
+289            android:launchMode="singleInstance"
+289-->[:flutter_inappwebview] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:30:13-48
+290            android:theme="@style/ThemeTransparent" />
+290-->[:flutter_inappwebview] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:31:13-52
+291        <activity
+291-->[:flutter_inappwebview] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:32:9-36:55
+292            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+292-->[:flutter_inappwebview] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:33:13-120
+293            android:exported="false"
+293-->[:flutter_inappwebview] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:34:13-37
+294            android:launchMode="singleInstance"
+294-->[:flutter_inappwebview] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:35:13-48
+295            android:theme="@style/ThemeTransparent" />
+295-->[:flutter_inappwebview] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:36:13-52
+296
+297        <receiver
+297-->[:flutter_inappwebview] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:38:9-41:40
+298            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+298-->[:flutter_inappwebview] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:39:13-111
+299            android:enabled="true"
+299-->[:flutter_inappwebview] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:40:13-35
+300            android:exported="false" />
+300-->[:flutter_inappwebview] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:41:13-37
+301
+302        <meta-data
+302-->[:flutter_inappwebview] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:43:9-45:36
+303            android:name="io.flutter.embedded_views_preview"
+303-->[:flutter_inappwebview] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:44:13-61
+304            android:value="true" />
+304-->[:flutter_inappwebview] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:45:13-33
+305
+306        <provider
+306-->[:share] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\share\intermediates\library_manifest\release\AndroidManifest.xml:8:9-16:20
+307            android:name="io.flutter.plugins.share.ShareFileProvider"
+307-->[:share] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\share\intermediates\library_manifest\release\AndroidManifest.xml:9:13-70
+308            android:authorities="com.eatop_user.flutter.share_provider"
+308-->[:share] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\share\intermediates\library_manifest\release\AndroidManifest.xml:10:13-74
+309            android:exported="false"
+309-->[:share] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\share\intermediates\library_manifest\release\AndroidManifest.xml:11:13-37
+310            android:grantUriPermissions="true" >
+310-->[:share] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\share\intermediates\library_manifest\release\AndroidManifest.xml:12:13-47
+311            <meta-data
+311-->[:share] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\share\intermediates\library_manifest\release\AndroidManifest.xml:13:13-15:68
+312                android:name="android.support.FILE_PROVIDER_PATHS"
+312-->[:share] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\share\intermediates\library_manifest\release\AndroidManifest.xml:14:17-67
+313                android:resource="@xml/flutter_share_file_paths" />
+313-->[:share] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\share\intermediates\library_manifest\release\AndroidManifest.xml:15:17-65
+314        </provider>
+315
+316        <meta-data
+316-->[:stripe_payment] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:12:9-14:36
+317            android:name="com.google.android.gms.wallet.api.enabled"
+317-->[:stripe_payment] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:13:13-69
+318            android:value="true" />
+318-->[:stripe_payment] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:14:13-33
+319
+320        <activity
+320-->[:stripe_payment] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:16:9-20:75
+321            android:name="com.gettipsi.stripe.OpenBrowserActivity"
+321-->[:stripe_payment] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:17:13-67
+322            android:exported="false"
+322-->[:stripe_payment] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:18:13-37
+323            android:launchMode="singleTask"
+323-->[:stripe_payment] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:19:13-44
+324            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+324-->[:stripe_payment] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:20:13-72
+325        <activity
+325-->[:stripe_payment] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:21:9-34:20
+326            android:name="com.gettipsi.stripe.RedirectUriReceiver"
+326-->[:stripe_payment] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:22:13-67
+327            android:exported="true"
+327-->[:stripe_payment] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:23:13-36
+328            android:launchMode="singleTask"
+328-->[:stripe_payment] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:24:13-44
+329            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+329-->[:stripe_payment] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:25:13-83
+330            <intent-filter>
+330-->[:stripe_payment] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:26:13-33:29
+331                <action android:name="android.intent.action.VIEW" />
+331-->[:stripe_payment] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:27:17-69
+331-->[:stripe_payment] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:27:25-66
+332
+333                <category android:name="android.intent.category.DEFAULT" />
+333-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:57:17-76
+333-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:57:27-73
+334                <category android:name="android.intent.category.BROWSABLE" />
+334-->[:stripe_payment] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:30:17-78
+334-->[:stripe_payment] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:30:27-75
+335
+336                <data android:scheme="example" />
+336-->[:file_picker] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:13:13-44
+337            </intent-filter>
+338        </activity>
+339        <activity
+339-->[:url_launcher_android] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:8:9-11:74
+340            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+340-->[:url_launcher_android] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:9:13-74
+341            android:exported="false"
+341-->[:url_launcher_android] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:10:13-37
+342            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+342-->[:url_launcher_android] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:11:13-71
+343
+344        <provider
+344-->[:open_filex] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\open_filex\intermediates\library_manifest\release\AndroidManifest.xml:16:9-25:20
+345            android:name="com.crazecoder.openfile.FileProvider"
+345-->[:open_filex] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\open_filex\intermediates\library_manifest\release\AndroidManifest.xml:17:13-64
+346            android:authorities="com.eatop_user.fileProvider.com.crazecoder.openfile"
+346-->[:open_filex] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\open_filex\intermediates\library_manifest\release\AndroidManifest.xml:18:13-88
+347            android:exported="false"
+347-->[:open_filex] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\open_filex\intermediates\library_manifest\release\AndroidManifest.xml:19:13-37
+348            android:grantUriPermissions="true" >
+348-->[:open_filex] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\open_filex\intermediates\library_manifest\release\AndroidManifest.xml:20:13-47
+349            <meta-data
+349-->[:share] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\share\intermediates\library_manifest\release\AndroidManifest.xml:13:13-15:68
+350                android:name="android.support.FILE_PROVIDER_PATHS"
+350-->[:share] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\share\intermediates\library_manifest\release\AndroidManifest.xml:14:17-67
+351                android:resource="@xml/filepaths" />
+351-->[:share] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\share\intermediates\library_manifest\release\AndroidManifest.xml:15:17-65
+352        </provider>
+353
+354        <service
+354-->[:location] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\location\intermediates\library_manifest\release\AndroidManifest.xml:11:9-15:56
+355            android:name="com.lyokone.location.FlutterLocationService"
+355-->[:location] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\location\intermediates\library_manifest\release\AndroidManifest.xml:12:13-71
+356            android:enabled="true"
+356-->[:location] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\location\intermediates\library_manifest\release\AndroidManifest.xml:13:13-35
+357            android:exported="false"
+357-->[:location] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\location\intermediates\library_manifest\release\AndroidManifest.xml:14:13-37
+358            android:foregroundServiceType="location" />
+358-->[:location] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\location\intermediates\library_manifest\release\AndroidManifest.xml:15:13-53
+359
+360        <activity
+360-->[com.stripe:payments-core:16.10.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\688ae457e95da5bba61e7e99564571a1\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:17:9-19:57
+361            android:name="com.stripe.android.view.AddPaymentMethodActivity"
+361-->[com.stripe:payments-core:16.10.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\688ae457e95da5bba61e7e99564571a1\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:18:13-76
+362            android:theme="@style/StripeDefaultTheme" />
+362-->[com.stripe:payments-core:16.10.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\688ae457e95da5bba61e7e99564571a1\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:19:13-54
+363        <activity
+363-->[com.stripe:payments-core:16.10.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\688ae457e95da5bba61e7e99564571a1\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:20:9-22:57
+364            android:name="com.stripe.android.view.PaymentMethodsActivity"
+364-->[com.stripe:payments-core:16.10.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\688ae457e95da5bba61e7e99564571a1\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:21:13-74
+365            android:theme="@style/StripeDefaultTheme" />
+365-->[com.stripe:payments-core:16.10.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\688ae457e95da5bba61e7e99564571a1\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:22:13-54
+366        <activity
+366-->[com.stripe:payments-core:16.10.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\688ae457e95da5bba61e7e99564571a1\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:23:9-25:57
+367            android:name="com.stripe.android.view.PaymentFlowActivity"
+367-->[com.stripe:payments-core:16.10.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\688ae457e95da5bba61e7e99564571a1\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:24:13-71
+368            android:theme="@style/StripeDefaultTheme" />
+368-->[com.stripe:payments-core:16.10.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\688ae457e95da5bba61e7e99564571a1\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:25:13-54
+369        <activity
+369-->[com.stripe:payments-core:16.10.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\688ae457e95da5bba61e7e99564571a1\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:26:9-29:58
+370            android:name="com.stripe.android.view.PaymentAuthWebViewActivity"
+370-->[com.stripe:payments-core:16.10.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\688ae457e95da5bba61e7e99564571a1\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:27:13-78
+371            android:theme="@style/StripeDefaultTheme"
+371-->[com.stripe:payments-core:16.10.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\688ae457e95da5bba61e7e99564571a1\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:28:13-54
+372            android:windowSoftInputMode="adjustResize" />
+372-->[com.stripe:payments-core:16.10.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\688ae457e95da5bba61e7e99564571a1\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:29:13-55
+373        <activity
+373-->[com.stripe:payments-core:16.10.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\688ae457e95da5bba61e7e99564571a1\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:30:9-32:61
+374            android:name="com.stripe.android.view.PaymentRelayActivity"
+374-->[com.stripe:payments-core:16.10.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\688ae457e95da5bba61e7e99564571a1\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:31:13-72
+375            android:theme="@style/StripeTransparentTheme" />
+375-->[com.stripe:payments-core:16.10.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\688ae457e95da5bba61e7e99564571a1\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:32:13-58
+376        <activity
+376-->[com.stripe:payments-core:16.10.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\688ae457e95da5bba61e7e99564571a1\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:55:9-57:57
+377            android:name="com.stripe.android.view.Stripe3ds2CompletionActivity"
+377-->[com.stripe:payments-core:16.10.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\688ae457e95da5bba61e7e99564571a1\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:56:13-80
+378            android:theme="@style/StripeDefaultTheme" />
+378-->[com.stripe:payments-core:16.10.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\688ae457e95da5bba61e7e99564571a1\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:57:13-54
+379        <activity
+379-->[com.stripe:payments-core:16.10.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\688ae457e95da5bba61e7e99564571a1\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:58:9-60:69
+380            android:name="com.stripe.android.paymentsheet.PaymentSheetActivity"
+380-->[com.stripe:payments-core:16.10.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\688ae457e95da5bba61e7e99564571a1\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:59:13-80
+381            android:theme="@style/StripePaymentSheetDefaultTheme" />
+381-->[com.stripe:payments-core:16.10.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\688ae457e95da5bba61e7e99564571a1\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:60:13-66
+382        <activity
+382-->[com.stripe:payments-core:16.10.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\688ae457e95da5bba61e7e99564571a1\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:61:9-63:69
+383            android:name="com.stripe.android.paymentsheet.PaymentOptionsActivity"
+383-->[com.stripe:payments-core:16.10.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\688ae457e95da5bba61e7e99564571a1\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:62:13-82
+384            android:theme="@style/StripePaymentSheetDefaultTheme" />
+384-->[com.stripe:payments-core:16.10.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\688ae457e95da5bba61e7e99564571a1\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:63:13-66
+385        <activity
+385-->[com.stripe:payments-core:16.10.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\688ae457e95da5bba61e7e99564571a1\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:64:9-66:66
+386            android:name="com.stripe.android.googlepay.StripeGooglePayActivity"
+386-->[com.stripe:payments-core:16.10.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\688ae457e95da5bba61e7e99564571a1\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:65:13-80
+387            android:theme="@style/StripeGooglePayDefaultTheme" />
+387-->[com.stripe:payments-core:16.10.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\688ae457e95da5bba61e7e99564571a1\transformed\jetified-payments-core-16.10.0\AndroidManifest.xml:66:13-63
+388        <activity
+388-->[com.stripe:stripe-3ds2-android:5.3.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\ed7397aea0ee62a0828fcc81d65fde21\transformed\jetified-stripe-3ds2-android-5.3.1\AndroidManifest.xml:10:9-12:54
+389            android:name="com.stripe.android.stripe3ds2.views.ChallengeActivity"
+389-->[com.stripe:stripe-3ds2-android:5.3.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\ed7397aea0ee62a0828fcc81d65fde21\transformed\jetified-stripe-3ds2-android-5.3.1\AndroidManifest.xml:11:13-81
+390            android:theme="@style/Stripe3DS2Theme" />
+390-->[com.stripe:stripe-3ds2-android:5.3.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\ed7397aea0ee62a0828fcc81d65fde21\transformed\jetified-stripe-3ds2-android-5.3.1\AndroidManifest.xml:12:13-51
+391        <activity
+391-->[com.stripe:stripe-3ds2-android:5.3.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\ed7397aea0ee62a0828fcc81d65fde21\transformed\jetified-stripe-3ds2-android-5.3.1\AndroidManifest.xml:13:9-15:54
+392            android:name="com.stripe.android.stripe3ds2.views.ChallengeProgressActivity"
+392-->[com.stripe:stripe-3ds2-android:5.3.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\ed7397aea0ee62a0828fcc81d65fde21\transformed\jetified-stripe-3ds2-android-5.3.1\AndroidManifest.xml:14:13-89
+393            android:theme="@style/Stripe3DS2Theme" />
+393-->[com.stripe:stripe-3ds2-android:5.3.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\ed7397aea0ee62a0828fcc81d65fde21\transformed\jetified-stripe-3ds2-android-5.3.1\AndroidManifest.xml:15:13-51
+394        <activity
+394-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\5afafacdffe740e6eae925ac3685be28\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:29:9-46:20
+395            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+395-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\5afafacdffe740e6eae925ac3685be28\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:30:13-80
+396            android:excludeFromRecents="true"
+396-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\5afafacdffe740e6eae925ac3685be28\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:31:13-46
+397            android:exported="true"
+397-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\5afafacdffe740e6eae925ac3685be28\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:32:13-36
+398            android:launchMode="singleTask"
+398-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\5afafacdffe740e6eae925ac3685be28\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:33:13-44
+399            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+399-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\5afafacdffe740e6eae925ac3685be28\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:34:13-72
+400            <intent-filter>
+400-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\5afafacdffe740e6eae925ac3685be28\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:35:13-45:29
+401                <action android:name="android.intent.action.VIEW" />
+401-->[:stripe_payment] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:27:17-69
+401-->[:stripe_payment] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:27:25-66
+402
+403                <category android:name="android.intent.category.DEFAULT" />
+403-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:57:17-76
+403-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:57:27-73
+404                <category android:name="android.intent.category.BROWSABLE" />
+404-->[:stripe_payment] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:30:17-78
+404-->[:stripe_payment] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:30:27-75
+405
+406                <data
+406-->[:file_picker] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:13:13-44
+407                    android:host="firebase.auth"
+408                    android:path="/"
+409                    android:scheme="genericidp" />
+410            </intent-filter>
+411        </activity>
+412        <activity
+412-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\5afafacdffe740e6eae925ac3685be28\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:47:9-64:20
+413            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+413-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\5afafacdffe740e6eae925ac3685be28\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:48:13-79
+414            android:excludeFromRecents="true"
+414-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\5afafacdffe740e6eae925ac3685be28\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:49:13-46
+415            android:exported="true"
+415-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\5afafacdffe740e6eae925ac3685be28\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:50:13-36
+416            android:launchMode="singleTask"
+416-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\5afafacdffe740e6eae925ac3685be28\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:51:13-44
+417            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+417-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\5afafacdffe740e6eae925ac3685be28\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:52:13-72
+418            <intent-filter>
+418-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\5afafacdffe740e6eae925ac3685be28\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:53:13-63:29
+419                <action android:name="android.intent.action.VIEW" />
+419-->[:stripe_payment] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:27:17-69
+419-->[:stripe_payment] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:27:25-66
+420
+421                <category android:name="android.intent.category.DEFAULT" />
+421-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:57:17-76
+421-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:57:27-73
+422                <category android:name="android.intent.category.BROWSABLE" />
+422-->[:stripe_payment] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:30:17-78
+422-->[:stripe_payment] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:30:27-75
+423
+424                <data
+424-->[:file_picker] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:13:13-44
+425                    android:host="firebase.auth"
+426                    android:path="/"
+427                    android:scheme="recaptcha" />
+428            </intent-filter>
+429        </activity>
+430
+431        <uses-library
+431-->[androidx.window:window:1.0.0-beta04] C:\Users\Alphawizz\.gradle\caches\transforms-3\7f2695ab11c75cd82f0f352d5c296c92\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+432            android:name="androidx.window.extensions"
+432-->[androidx.window:window:1.0.0-beta04] C:\Users\Alphawizz\.gradle\caches\transforms-3\7f2695ab11c75cd82f0f352d5c296c92\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+433            android:required="false" />
+433-->[androidx.window:window:1.0.0-beta04] C:\Users\Alphawizz\.gradle\caches\transforms-3\7f2695ab11c75cd82f0f352d5c296c92\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+434        <uses-library
+434-->[androidx.window:window:1.0.0-beta04] C:\Users\Alphawizz\.gradle\caches\transforms-3\7f2695ab11c75cd82f0f352d5c296c92\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+435            android:name="androidx.window.sidecar"
+435-->[androidx.window:window:1.0.0-beta04] C:\Users\Alphawizz\.gradle\caches\transforms-3\7f2695ab11c75cd82f0f352d5c296c92\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+436            android:required="false" />
+436-->[androidx.window:window:1.0.0-beta04] C:\Users\Alphawizz\.gradle\caches\transforms-3\7f2695ab11c75cd82f0f352d5c296c92\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+437
+438        <activity
+438-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\Alphawizz\.gradle\caches\transforms-3\af3c1a2de9a7a7c80e2302cbe782707e\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:23:9-26:66
+439            android:name="com.paytm.pgsdk.PaytmPGActivity"
+439-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\Alphawizz\.gradle\caches\transforms-3\af3c1a2de9a7a7c80e2302cbe782707e\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:24:13-59
+440            android:screenOrientation="portrait"
+440-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\Alphawizz\.gradle\caches\transforms-3\af3c1a2de9a7a7c80e2302cbe782707e\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:25:13-49
+441            android:theme="@style/Theme.AppCompat.NoActionBar" />
+441-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\Alphawizz\.gradle\caches\transforms-3\af3c1a2de9a7a7c80e2302cbe782707e\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:26:13-63
+442        <activity
+442-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\Alphawizz\.gradle\caches\transforms-3\af3c1a2de9a7a7c80e2302cbe782707e\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:27:9-29:63
+443            android:name="com.paytm.pgsdk.AioMatchUserActivity"
+443-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\Alphawizz\.gradle\caches\transforms-3\af3c1a2de9a7a7c80e2302cbe782707e\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:28:13-64
+444            android:theme="@style/TransparentActivityTheme" />
+444-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\Alphawizz\.gradle\caches\transforms-3\af3c1a2de9a7a7c80e2302cbe782707e\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:29:13-60
+445
+446        <service
+446-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\Alphawizz\.gradle\caches\transforms-3\af3c1a2de9a7a7c80e2302cbe782707e\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:31:9-33:40
+447            android:name="com.paytm.pgsdk.IntentServicePostNotification"
+447-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\Alphawizz\.gradle\caches\transforms-3\af3c1a2de9a7a7c80e2302cbe782707e\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:32:13-73
+448            android:exported="false" />
+448-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\Alphawizz\.gradle\caches\transforms-3\af3c1a2de9a7a7c80e2302cbe782707e\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:33:13-37
+449        <service
+449-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\Alphawizz\.gradle\caches\transforms-3\af3c1a2de9a7a7c80e2302cbe782707e\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:34:9-36:40
+450            android:name="com.paytm.pgsdk.IntentServicePreNotification"
+450-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\Alphawizz\.gradle\caches\transforms-3\af3c1a2de9a7a7c80e2302cbe782707e\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:35:13-72
+451            android:exported="false" />
+451-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\Alphawizz\.gradle\caches\transforms-3\af3c1a2de9a7a7c80e2302cbe782707e\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:36:13-37
+452        <service
+452-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Alphawizz\.gradle\caches\transforms-3\2e56315627870b08fdae7ca6a48167ba\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:14:9-17:72
+453            android:name="easypay.appinvoke.utils.EasyPayConfigDownloader"
+453-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Alphawizz\.gradle\caches\transforms-3\2e56315627870b08fdae7ca6a48167ba\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:15:13-75
+454            android:exported="false"
+454-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Alphawizz\.gradle\caches\transforms-3\2e56315627870b08fdae7ca6a48167ba\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:16:13-37
+455            android:permission="android.permission.BIND_JOB_SERVICE" />
+455-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Alphawizz\.gradle\caches\transforms-3\2e56315627870b08fdae7ca6a48167ba\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:17:13-69
+456        <service
+456-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Alphawizz\.gradle\caches\transforms-3\2e56315627870b08fdae7ca6a48167ba\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:18:9-22:72
+457            android:name="easypay.appinvoke.utils.AnalyticsService"
+457-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Alphawizz\.gradle\caches\transforms-3\2e56315627870b08fdae7ca6a48167ba\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:19:13-68
+458            android:enabled="true"
+458-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Alphawizz\.gradle\caches\transforms-3\2e56315627870b08fdae7ca6a48167ba\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:20:13-35
+459            android:exported="false"
+459-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Alphawizz\.gradle\caches\transforms-3\2e56315627870b08fdae7ca6a48167ba\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:21:13-37
+460            android:permission="android.permission.BIND_JOB_SERVICE" />
+460-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Alphawizz\.gradle\caches\transforms-3\2e56315627870b08fdae7ca6a48167ba\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:22:13-69
+461
+462        <activity android:name="easypay.appinvoke.AnalyticsManagerInfoDisplayActivity" />
+462-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Alphawizz\.gradle\caches\transforms-3\2e56315627870b08fdae7ca6a48167ba\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:24:9-90
+462-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Alphawizz\.gradle\caches\transforms-3\2e56315627870b08fdae7ca6a48167ba\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:24:19-87
+463
+464        <receiver
+464-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\28bea37ecfe4aff5e8e820c643e6ea0e\transformed\jetified-firebase-messaging-23.2.1\AndroidManifest.xml:29:9-36:20
+465            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+465-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\28bea37ecfe4aff5e8e820c643e6ea0e\transformed\jetified-firebase-messaging-23.2.1\AndroidManifest.xml:30:13-78
+466            android:exported="true"
+466-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\28bea37ecfe4aff5e8e820c643e6ea0e\transformed\jetified-firebase-messaging-23.2.1\AndroidManifest.xml:31:13-36
+467            android:permission="com.google.android.c2dm.permission.SEND" >
+467-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\28bea37ecfe4aff5e8e820c643e6ea0e\transformed\jetified-firebase-messaging-23.2.1\AndroidManifest.xml:32:13-73
+468            <intent-filter>
+468-->[:firebase_messaging] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:30:13-32:29
+469                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+469-->[:firebase_messaging] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:31:17-81
+469-->[:firebase_messaging] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:31:25-78
+470            </intent-filter>
+471        </receiver>
+472        <!--
+473             FirebaseMessagingService performs security checks at runtime,
+474             but set to not exported to explicitly avoid allowing another app to call it.
+475        -->
+476        <service
+476-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\28bea37ecfe4aff5e8e820c643e6ea0e\transformed\jetified-firebase-messaging-23.2.1\AndroidManifest.xml:42:9-49:19
+477            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+477-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\28bea37ecfe4aff5e8e820c643e6ea0e\transformed\jetified-firebase-messaging-23.2.1\AndroidManifest.xml:43:13-82
+478            android:directBootAware="true"
+478-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\28bea37ecfe4aff5e8e820c643e6ea0e\transformed\jetified-firebase-messaging-23.2.1\AndroidManifest.xml:44:13-43
+479            android:exported="false" >
+479-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\28bea37ecfe4aff5e8e820c643e6ea0e\transformed\jetified-firebase-messaging-23.2.1\AndroidManifest.xml:45:13-37
+480            <intent-filter android:priority="-500" >
+480-->[:firebase_messaging] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:21:13-23:29
+481                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+481-->[:firebase_messaging] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:22:17-78
+481-->[:firebase_messaging] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:22:25-75
+482            </intent-filter>
+483        </service>
+484
+485        <receiver
+485-->[com.razorpay:checkout:1.6.19] C:\Users\Alphawizz\.gradle\caches\transforms-3\779d35bba1cab63fb1a10eae06fed81d\transformed\jetified-checkout-1.6.19\AndroidManifest.xml:40:9-46:20
+486            android:name="com.razorpay.RzpTokenReceiver"
+486-->[com.razorpay:checkout:1.6.19] C:\Users\Alphawizz\.gradle\caches\transforms-3\779d35bba1cab63fb1a10eae06fed81d\transformed\jetified-checkout-1.6.19\AndroidManifest.xml:41:13-57
+487            android:exported="false" >
+487-->[com.razorpay:checkout:1.6.19] C:\Users\Alphawizz\.gradle\caches\transforms-3\779d35bba1cab63fb1a10eae06fed81d\transformed\jetified-checkout-1.6.19\AndroidManifest.xml:42:13-37
+488            <intent-filter>
+488-->[com.razorpay:checkout:1.6.19] C:\Users\Alphawizz\.gradle\caches\transforms-3\779d35bba1cab63fb1a10eae06fed81d\transformed\jetified-checkout-1.6.19\AndroidManifest.xml:43:13-45:29
+489                <action android:name="rzp.device_token.share" />
+489-->[com.razorpay:checkout:1.6.19] C:\Users\Alphawizz\.gradle\caches\transforms-3\779d35bba1cab63fb1a10eae06fed81d\transformed\jetified-checkout-1.6.19\AndroidManifest.xml:44:17-65
+489-->[com.razorpay:checkout:1.6.19] C:\Users\Alphawizz\.gradle\caches\transforms-3\779d35bba1cab63fb1a10eae06fed81d\transformed\jetified-checkout-1.6.19\AndroidManifest.xml:44:25-62
+490            </intent-filter>
+491        </receiver>
+492
+493        <activity
+493-->[com.razorpay:checkout:1.6.19] C:\Users\Alphawizz\.gradle\caches\transforms-3\779d35bba1cab63fb1a10eae06fed81d\transformed\jetified-checkout-1.6.19\AndroidManifest.xml:48:9-60:20
+494            android:name="com.razorpay.CheckoutActivity"
+494-->[com.razorpay:checkout:1.6.19] C:\Users\Alphawizz\.gradle\caches\transforms-3\779d35bba1cab63fb1a10eae06fed81d\transformed\jetified-checkout-1.6.19\AndroidManifest.xml:49:13-57
+495            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+495-->[com.razorpay:checkout:1.6.19] C:\Users\Alphawizz\.gradle\caches\transforms-3\779d35bba1cab63fb1a10eae06fed81d\transformed\jetified-checkout-1.6.19\AndroidManifest.xml:50:13-83
+496            android:exported="true"
+496-->[com.razorpay:checkout:1.6.19] C:\Users\Alphawizz\.gradle\caches\transforms-3\779d35bba1cab63fb1a10eae06fed81d\transformed\jetified-checkout-1.6.19\AndroidManifest.xml:51:13-36
+497            android:theme="@style/CheckoutTheme" >
+497-->[com.razorpay:checkout:1.6.19] C:\Users\Alphawizz\.gradle\caches\transforms-3\779d35bba1cab63fb1a10eae06fed81d\transformed\jetified-checkout-1.6.19\AndroidManifest.xml:52:13-49
+498            <intent-filter>
+498-->[com.razorpay:checkout:1.6.19] C:\Users\Alphawizz\.gradle\caches\transforms-3\779d35bba1cab63fb1a10eae06fed81d\transformed\jetified-checkout-1.6.19\AndroidManifest.xml:53:13-59:29
+499                <action android:name="android.intent.action.MAIN" />
+499-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:52:17-69
+499-->C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\android\app\src\main\AndroidManifest.xml:52:25-66
+500
+501                <data
+501-->[:file_picker] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:13:13-44
+502                    android:host="rzp.io"
+503                    android:scheme="io.rzp" />
+504            </intent-filter>
+505        </activity>
+506
+507        <meta-data
+507-->[com.razorpay:checkout:1.6.19] C:\Users\Alphawizz\.gradle\caches\transforms-3\779d35bba1cab63fb1a10eae06fed81d\transformed\jetified-checkout-1.6.19\AndroidManifest.xml:62:9-64:58
+508            android:name="com.razorpay.plugin.googlepay_all"
+508-->[com.razorpay:checkout:1.6.19] C:\Users\Alphawizz\.gradle\caches\transforms-3\779d35bba1cab63fb1a10eae06fed81d\transformed\jetified-checkout-1.6.19\AndroidManifest.xml:63:13-61
+509            android:value="com.razorpay.RzpGpayMerged" /> <!-- Needs to be explicitly declared on P+ -->
+509-->[com.razorpay:checkout:1.6.19] C:\Users\Alphawizz\.gradle\caches\transforms-3\779d35bba1cab63fb1a10eae06fed81d\transformed\jetified-checkout-1.6.19\AndroidManifest.xml:64:13-55
+510        <uses-library
+510-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\f7b3126fb18363d9332994721ee098a5\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+511            android:name="org.apache.http.legacy"
+511-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\f7b3126fb18363d9332994721ee098a5\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+512            android:required="false" />
+512-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\f7b3126fb18363d9332994721ee098a5\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+513
+514        <activity
+514-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\b0e671013eb3119b6145fa35fae0da4f\transformed\jetified-play-services-auth-20.6.0\AndroidManifest.xml:23:9-27:75
+515            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+515-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\b0e671013eb3119b6145fa35fae0da4f\transformed\jetified-play-services-auth-20.6.0\AndroidManifest.xml:24:13-93
+516            android:excludeFromRecents="true"
+516-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\b0e671013eb3119b6145fa35fae0da4f\transformed\jetified-play-services-auth-20.6.0\AndroidManifest.xml:25:13-46
+517            android:exported="false"
+517-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\b0e671013eb3119b6145fa35fae0da4f\transformed\jetified-play-services-auth-20.6.0\AndroidManifest.xml:26:13-37
+518            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+518-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\b0e671013eb3119b6145fa35fae0da4f\transformed\jetified-play-services-auth-20.6.0\AndroidManifest.xml:27:13-72
+519        <!--
+520            Service handling Google Sign-In user revocation. For apps that do not integrate with
+521            Google Sign-In, this service will never be started.
+522        -->
+523        <service
+523-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\b0e671013eb3119b6145fa35fae0da4f\transformed\jetified-play-services-auth-20.6.0\AndroidManifest.xml:33:9-37:51
+524            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+524-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\b0e671013eb3119b6145fa35fae0da4f\transformed\jetified-play-services-auth-20.6.0\AndroidManifest.xml:34:13-89
+525            android:exported="true"
+525-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\b0e671013eb3119b6145fa35fae0da4f\transformed\jetified-play-services-auth-20.6.0\AndroidManifest.xml:35:13-36
+526            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+526-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\b0e671013eb3119b6145fa35fae0da4f\transformed\jetified-play-services-auth-20.6.0\AndroidManifest.xml:36:13-107
+527            android:visibleToInstantApps="true" />
+527-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\b0e671013eb3119b6145fa35fae0da4f\transformed\jetified-play-services-auth-20.6.0\AndroidManifest.xml:37:13-48
+528
+529        <activity
+529-->[com.google.android.gms:play-services-base:18.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\7d8891b3d51a2fb630d51c757cb7b32a\transformed\jetified-play-services-base-18.2.0\AndroidManifest.xml:20:9-22:45
+530            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+530-->[com.google.android.gms:play-services-base:18.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\7d8891b3d51a2fb630d51c757cb7b32a\transformed\jetified-play-services-base-18.2.0\AndroidManifest.xml:20:19-85
+531            android:exported="false"
+531-->[com.google.android.gms:play-services-base:18.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\7d8891b3d51a2fb630d51c757cb7b32a\transformed\jetified-play-services-base-18.2.0\AndroidManifest.xml:22:19-43
+532            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+532-->[com.google.android.gms:play-services-base:18.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\7d8891b3d51a2fb630d51c757cb7b32a\transformed\jetified-play-services-base-18.2.0\AndroidManifest.xml:21:19-78
+533
+534        <provider
+534-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Alphawizz\.gradle\caches\transforms-3\ec345d869f93d318b763b0f07695c92e\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:25:9-30:39
+535            android:name="com.google.firebase.provider.FirebaseInitProvider"
+535-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Alphawizz\.gradle\caches\transforms-3\ec345d869f93d318b763b0f07695c92e\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:26:13-77
+536            android:authorities="com.eatop_user.firebaseinitprovider"
+536-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Alphawizz\.gradle\caches\transforms-3\ec345d869f93d318b763b0f07695c92e\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:27:13-72
+537            android:directBootAware="true"
+537-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Alphawizz\.gradle\caches\transforms-3\ec345d869f93d318b763b0f07695c92e\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:28:13-43
+538            android:exported="false"
+538-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Alphawizz\.gradle\caches\transforms-3\ec345d869f93d318b763b0f07695c92e\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:29:13-37
+539            android:initOrder="100" />
+539-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Alphawizz\.gradle\caches\transforms-3\ec345d869f93d318b763b0f07695c92e\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:30:13-36
+540
+541        <meta-data
+541-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\5f203124b02ba7857f65fe543a31594f\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:21:9-23:69
+542            android:name="com.google.android.gms.version"
+542-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\5f203124b02ba7857f65fe543a31594f\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:22:13-58
+543            android:value="@integer/google_play_services_version" />
+543-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\5f203124b02ba7857f65fe543a31594f\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:23:13-66
+544
+545        <service
+545-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Alphawizz\.gradle\caches\transforms-3\9f008453049e73160e5d8b497ef24d50\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+546            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+546-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Alphawizz\.gradle\caches\transforms-3\9f008453049e73160e5d8b497ef24d50\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+547            android:exported="false" >
+547-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Alphawizz\.gradle\caches\transforms-3\9f008453049e73160e5d8b497ef24d50\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+548            <meta-data
+548-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Alphawizz\.gradle\caches\transforms-3\9f008453049e73160e5d8b497ef24d50\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+549                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+549-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Alphawizz\.gradle\caches\transforms-3\9f008453049e73160e5d8b497ef24d50\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+550                android:value="cct" />
+550-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Alphawizz\.gradle\caches\transforms-3\9f008453049e73160e5d8b497ef24d50\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+551        </service>
+552        <service
+552-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Alphawizz\.gradle\caches\transforms-3\925be457110caa5898b8fce83838e49b\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+553            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+553-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Alphawizz\.gradle\caches\transforms-3\925be457110caa5898b8fce83838e49b\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+554            android:exported="false"
+554-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Alphawizz\.gradle\caches\transforms-3\925be457110caa5898b8fce83838e49b\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+555            android:permission="android.permission.BIND_JOB_SERVICE" >
+555-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Alphawizz\.gradle\caches\transforms-3\925be457110caa5898b8fce83838e49b\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+556        </service>
+557
+558        <receiver
+558-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Alphawizz\.gradle\caches\transforms-3\925be457110caa5898b8fce83838e49b\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+559            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+559-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Alphawizz\.gradle\caches\transforms-3\925be457110caa5898b8fce83838e49b\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+560            android:exported="false" />
+560-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Alphawizz\.gradle\caches\transforms-3\925be457110caa5898b8fce83838e49b\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+561
+562        <provider
+562-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:31:9-39:20
+563            android:name="androidx.startup.InitializationProvider"
+563-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:32:13-67
+564            android:authorities="com.eatop_user.androidx-startup"
+564-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:33:13-68
+565            android:exported="false" >
+565-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:34:13-37
+566            <meta-data
+566-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:36:13-38:52
+567                android:name="androidx.work.WorkManagerInitializer"
+567-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:37:17-68
+568                android:value="androidx.startup" />
+568-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:38:17-49
+569            <meta-data
+569-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\1ba97187dbacc70371267a55561fd50e\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+570                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+570-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\1ba97187dbacc70371267a55561fd50e\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+571                android:value="androidx.startup" />
+571-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\1ba97187dbacc70371267a55561fd50e\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+572            <meta-data
+572-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\ed01472505503e4e10416a20809b85ec\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+573                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+573-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\ed01472505503e4e10416a20809b85ec\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+574                android:value="androidx.startup" />
+574-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\ed01472505503e4e10416a20809b85ec\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+575        </provider>
+576
+577        <service
+577-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:41:9-46:35
+578            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+578-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:42:13-88
+579            android:directBootAware="false"
+579-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:43:13-44
+580            android:enabled="@bool/enable_system_alarm_service_default"
+580-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:44:13-72
+581            android:exported="false" />
+581-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:45:13-37
+582        <service
+582-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:47:9-53:35
+583            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+583-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:48:13-84
+584            android:directBootAware="false"
+584-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:49:13-44
+585            android:enabled="@bool/enable_system_job_service_default"
+585-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:50:13-70
+586            android:exported="true"
+586-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:51:13-36
+587            android:permission="android.permission.BIND_JOB_SERVICE" />
+587-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:52:13-69
+588        <service
+588-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:54:9-59:35
+589            android:name="androidx.work.impl.foreground.SystemForegroundService"
+589-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:55:13-81
+590            android:directBootAware="false"
+590-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:56:13-44
+591            android:enabled="@bool/enable_system_foreground_service_default"
+591-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:57:13-77
+592            android:exported="false" />
+592-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:58:13-37
+593
+594        <receiver
+594-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:61:9-66:35
+595            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+595-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:62:13-88
+596            android:directBootAware="false"
+596-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:63:13-44
+597            android:enabled="true"
+597-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:64:13-35
+598            android:exported="false" />
+598-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:65:13-37
+599        <receiver
+599-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:67:9-77:20
+600            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+600-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:68:13-106
+601            android:directBootAware="false"
+601-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:69:13-44
+602            android:enabled="false"
+602-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:70:13-36
+603            android:exported="false" >
+603-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:71:13-37
+604            <intent-filter>
+604-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:73:13-76:29
+605                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+605-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:17-87
+605-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:25-84
+606                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+606-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:17-90
+606-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:25-87
+607            </intent-filter>
+608        </receiver>
+609        <receiver
+609-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:78:9-88:20
+610            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+610-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:79:13-104
+611            android:directBootAware="false"
+611-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:80:13-44
+612            android:enabled="false"
+612-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:81:13-36
+613            android:exported="false" >
+613-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:82:13-37
+614            <intent-filter>
+614-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:84:13-87:29
+615                <action android:name="android.intent.action.BATTERY_OKAY" />
+615-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:17-77
+615-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:25-74
+616                <action android:name="android.intent.action.BATTERY_LOW" />
+616-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:17-76
+616-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:25-73
+617            </intent-filter>
+618        </receiver>
+619        <receiver
+619-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:89:9-99:20
+620            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+620-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:90:13-104
+621            android:directBootAware="false"
+621-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:91:13-44
+622            android:enabled="false"
+622-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:92:13-36
+623            android:exported="false" >
+623-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:93:13-37
+624            <intent-filter>
+624-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:95:13-98:29
+625                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+625-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:17-83
+625-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:25-80
+626                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+626-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:17-82
+626-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:25-79
+627            </intent-filter>
+628        </receiver>
+629        <receiver
+629-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:100:9-109:20
+630            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+630-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:101:13-103
+631            android:directBootAware="false"
+631-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:102:13-44
+632            android:enabled="false"
+632-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:103:13-36
+633            android:exported="false" >
+633-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:104:13-37
+634            <intent-filter>
+634-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:106:13-108:29
+635                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+635-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:17-79
+635-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:25-76
+636            </intent-filter>
+637        </receiver>
+638        <receiver
+638-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:110:9-121:20
+639            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+639-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:111:13-88
+640            android:directBootAware="false"
+640-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:112:13-44
+641            android:enabled="false"
+641-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:113:13-36
+642            android:exported="false" >
+642-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:114:13-37
+643            <intent-filter>
+643-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:116:13-120:29
+644                <action android:name="android.intent.action.BOOT_COMPLETED" />
+644-->[:flutter_local_notifications] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:21:17-79
+644-->[:flutter_local_notifications] C:\Users\Alphawizz\Downloads\Ettop_user\Ettop_user\Ettop_user\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:21:25-76
+645                <action android:name="android.intent.action.TIME_SET" />
+645-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:17-73
+645-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:25-70
+646                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+646-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:17-81
+646-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:25-78
+647            </intent-filter>
+648        </receiver>
+649        <receiver
+649-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:122:9-131:20
+650            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+650-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:123:13-99
+651            android:directBootAware="false"
+651-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:124:13-44
+652            android:enabled="@bool/enable_system_alarm_service_default"
+652-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:125:13-72
+653            android:exported="false" >
+653-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:126:13-37
+654            <intent-filter>
+654-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:128:13-130:29
+655                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+655-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:17-98
+655-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:25-95
+656            </intent-filter>
+657        </receiver>
+658        <receiver
+658-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:132:9-142:20
+659            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+659-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:133:13-78
+660            android:directBootAware="false"
+660-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:134:13-44
+661            android:enabled="true"
+661-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:135:13-35
+662            android:exported="true"
+662-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:136:13-36
+663            android:permission="android.permission.DUMP" >
+663-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:137:13-57
+664            <intent-filter>
+664-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:139:13-141:29
+665                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+665-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:17-88
+665-->[androidx.work:work-runtime:2.7.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\37924df2039c1421fec10949ecf96b88\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:25-85
+666            </intent-filter>
+667        </receiver>
+668
+669        <service
+669-->[androidx.room:room-runtime:2.2.5] C:\Users\Alphawizz\.gradle\caches\transforms-3\a992c18c840a9200e9c15dcc4191195c\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+670            android:name="androidx.room.MultiInstanceInvalidationService"
+670-->[androidx.room:room-runtime:2.2.5] C:\Users\Alphawizz\.gradle\caches\transforms-3\a992c18c840a9200e9c15dcc4191195c\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+671            android:directBootAware="true"
+671-->[androidx.room:room-runtime:2.2.5] C:\Users\Alphawizz\.gradle\caches\transforms-3\a992c18c840a9200e9c15dcc4191195c\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+672            android:exported="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+672-->[androidx.room:room-runtime:2.2.5] C:\Users\Alphawizz\.gradle\caches\transforms-3\a992c18c840a9200e9c15dcc4191195c\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+673        <activity
+673-->[com.google.android.play:core-common:2.0.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\8b141f3d9a9aaf5fd2e84b431faba9b4\transformed\jetified-core-common-2.0.2\AndroidManifest.xml:14:9-18:65
+674            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+674-->[com.google.android.play:core-common:2.0.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\8b141f3d9a9aaf5fd2e84b431faba9b4\transformed\jetified-core-common-2.0.2\AndroidManifest.xml:15:13-93
+675            android:exported="false"
+675-->[com.google.android.play:core-common:2.0.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\8b141f3d9a9aaf5fd2e84b431faba9b4\transformed\jetified-core-common-2.0.2\AndroidManifest.xml:16:13-37
+676            android:stateNotNeeded="true"
+676-->[com.google.android.play:core-common:2.0.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\8b141f3d9a9aaf5fd2e84b431faba9b4\transformed\jetified-core-common-2.0.2\AndroidManifest.xml:17:13-42
+677            android:theme="@style/Theme.PlayCore.Transparent" />
+677-->[com.google.android.play:core-common:2.0.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\8b141f3d9a9aaf5fd2e84b431faba9b4\transformed\jetified-core-common-2.0.2\AndroidManifest.xml:18:13-62
+678    </application>
+679
+680</manifest>
