@@ -10,6 +10,7 @@ import 'package:http/http.dart' as http;
 
 import '../Helper/Session.dart';
 import '../Model/Section_Model.dart';
+import 'Seller_Details.dart';
 import 'SubCategory.dart';
 
 class FavoriteRestaurant extends StatefulWidget {
@@ -160,6 +161,24 @@ class _FavoriteRestaurantState extends State<FavoriteRestaurant> {
                               Navigator.push(
                                   context,
                                   MaterialPageRoute(
+                                      builder: (context) =>
+                                          SellerProfile(
+                                            search: false,
+                                            fromSearch: false,
+                                            // catId: widget.catId,
+                                            sellerID: restList[index].id.toString(),
+                                            sellerStoreName:restList[index]
+                                                .store_name
+                                                .toString(),
+                                            /*subCatId:
+                                                    subCatData[index]
+                                                    ["id"],*/
+                                            sellerData:
+                                            restList[index],
+                                          )));
+                              /*Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
                                       builder: (context) => SubCategory(
                                             fromSearch: false,
                                             title: restList[index]
@@ -168,7 +187,7 @@ class _FavoriteRestaurantState extends State<FavoriteRestaurant> {
                                             sellerId:
                                                 restList[index].id.toString(),
                                             sellerData: restList[index],
-                                          )));
+                                          )));*/
                             } else {
                               setSnackbar("Restaurant is Close!!", context);
                             }

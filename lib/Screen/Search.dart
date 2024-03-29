@@ -1797,6 +1797,22 @@ class _SearchState extends State<Search> with TickerProviderStateMixin {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
+                                  builder: (context) =>
+                                      SellerProfile(
+                                        fromSearch: true,
+                                        // catId: widget.catId,
+                                        sellerID: sellerLists[index]['user_id']
+                                            .toString(),
+                                        sellerStoreName:sellerLists[index]['store_name']
+                                            .toString(),
+                                        /*subCatId:
+                                                    subCatData[index]
+                                                    ["id"],*/
+                                        sellerData:sellerLists[index],
+                                      )));
+                          /*Navigator.push(
+                              context,
+                              MaterialPageRoute(
                                   builder: (context) => SubCategory(
                                         fromSearch: true,
                                         title: sellerLists[index]['store_name']
@@ -1815,7 +1831,7 @@ class _SearchState extends State<Search> with TickerProviderStateMixin {
                                   // subCatId: sellerLists[index][''],
                                   // search: true,
                                   //   )
-                                  ));
+                                  ));*/
                         }else{
                           setSnackbar(
                               "Restaurant is Close!!");
@@ -1934,6 +1950,27 @@ class _SearchState extends State<Search> with TickerProviderStateMixin {
                                                       context,
                                                       MaterialPageRoute(
                                                           builder: (context) =>
+                                                              SellerProfile(
+                                                                fromSearch: false,
+                                                                // catId: widget.catId,
+                                                                sellerID: sellerList[
+                                                                index]
+                                                                    .seller_id
+                                                                    .toString(),
+                                                                sellerStoreName:sellerList[
+                                                                index]
+                                                                    .store_name
+                                                                    .toString(),
+                                                                /*subCatId:
+                                                    subCatData[index]
+                                                    ["id"],*/
+                                                                sellerData:sellerList[
+                                                                index],
+                                                              )));
+                                                  /*Navigator.push(
+                                                      context,
+                                                      MaterialPageRoute(
+                                                          builder: (context) =>
                                                               SubCategory(
                                                                 fromSearch:
                                                                     false,
@@ -1948,7 +1985,7 @@ class _SearchState extends State<Search> with TickerProviderStateMixin {
                                                                 sellerData:
                                                                     sellerList[
                                                                         index],
-                                                              )));
+                                                              )));*/
                                                 } else {
                                                   setSnackbar(
                                                     "Restaurant is Close!!",
@@ -3379,6 +3416,27 @@ class _SuggestionList extends StatelessWidget {
                                       Navigator.push(
                                           context,
                                           MaterialPageRoute(
+                                              builder: (context) =>
+                                                  SellerProfile(
+                                                    fromSearch: false,
+                                                    // catId: widget.catId,
+                                                    sellerID: topSellerList[index]
+                                                        .seller_id
+                                                        .toString(),
+                                                    sellerStoreName:topSellerList[index]
+                                                        .store_name
+                                                        .toString(),
+                                                    /*subCatId:
+                                                    subCatData[index]
+                                                    ["id"],*/
+                                                    sellerData:
+                                                    topSellerList[index],
+                                                  )));
+
+
+                                      /*Navigator.push(
+                                          context,
+                                          MaterialPageRoute(
                                               builder: (context) => SubCategory(
                                                     fromSearch: false,
                                                     title: topSellerList[index]
@@ -3390,7 +3448,7 @@ class _SuggestionList extends StatelessWidget {
                                                             .toString(),
                                                     sellerData:
                                                         topSellerList[index],
-                                                  )));
+                                                  )));*/
                                     } else {
                                       setSnackbar(
                                           "Restaurant is Close!!", context);

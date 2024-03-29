@@ -41,9 +41,7 @@ class _SellerListState extends State<SellerList> {
     return Scaffold(
       appBar: getAppBar(getTranslated(context, 'SHOP_BY_SELLER')!, context),
       body: sellerLists.length == 0
-          ? Center(
-              child: Text("Please Wait"),
-            )
+          ? Center(child: Text("Please Wait"),)
           : ListView.builder(
               itemCount: sellerLists.length,
               scrollDirection: Axis.vertical,
@@ -55,7 +53,31 @@ class _SellerListState extends State<SellerList> {
                   child: GestureDetector(
                     onTap: () async {
                       if (sellerLists[index].online == "1") {
+                        print('______________${sellerList[index]
+                            .seller_id}');
+                        print('______________${sellerList.length}');
                         Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) =>
+                                    SellerProfile(
+                                      search: false,
+                                      fromSearch: false,
+                                      // catId: widget.catId,
+                                      sellerID: sellerLists[index]
+                                          .seller_id
+                                          .toString(),
+                                      sellerStoreName:sellerLists[index]
+                                          .store_name
+                                          .toString(),
+                                      /*subCatId:
+                                                    subCatData[index]
+                                                    ["id"],*/
+                                      sellerData:
+                                      sellerLists[index],
+                                    )));
+
+                        /*Navigator.push(
                             context,
                             MaterialPageRoute(
                                 builder: (context) => SubCategory(
@@ -67,7 +89,7 @@ class _SellerListState extends State<SellerList> {
                                           .toString(),
                                       sellerData: sellerLists[index],
                                       catId: widget.catId,
-                                    )));
+                                    )));*/
                       } else {
                         setSnackbar("Store Close!");
                       }

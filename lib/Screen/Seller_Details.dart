@@ -75,9 +75,9 @@ class _SellerProfileState extends State<SellerProfile>
   void initState() {
     super.initState();
     _tabController = TabController(vsync: this, length: 2);
-    /*Future.delayed(Duration(milliseconds: 300), () {
-      return getSubCategory();
-    });*/
+    Future.delayed(Duration(milliseconds: 300), () {
+     // return getSubCategory();
+    });
     getFavorite();
     Future.delayed(Duration(milliseconds: 400), () {
       return getProduct("0", "");
@@ -211,7 +211,7 @@ class _SellerProfileState extends State<SellerProfile>
     Map parameter = {
       SORT: sortBy,
       ORDER: orderBy,
-    //  SUB_CAT_ID: id == "" || id == null ? widget.subCatId : id,
+     // SUB_CAT_ID: id == "" || id == null ? widget.subCatId : id,
       LIMIT: perPage.toString(),
       OFFSET: "0",
       TOP_RETAED: top,
@@ -319,6 +319,23 @@ class _SellerProfileState extends State<SellerProfile>
     }
 
     productList.addAll(tempList);
+
+    print('_________sdffs___');
+    print(getQuantity());
+
+    ///for openning bottomsheet for checkOut
+    if (getQuantity2() != '0' &&
+        productList.length > 0 &&
+        persistentBottomSheetController == null &&
+        isFirstTime == true) {
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        isFirstTime = false;
+        showBottomWithoutAddOn(productList[0], 0);
+        // Add Your Code here.
+      });
+
+
+    }
   }
 
   @override
@@ -1810,14 +1827,13 @@ class _SellerProfileState extends State<SellerProfile>
     if (index < productList.length) {
       Product model = productList[index];
       totalProduct = model.total;
-      print("final addon list here ${model.addOnList} and ${model.id}");
+      // print("final addon list here ${model.addOnList} and ${model.id}");
       if (_controller.length < index + 1)
         _controller.add(new TextEditingController());
 
       _controller[index].text =
       model.prVarientList![model.selVarient!].cartCount!;
-
-      if (index == productList.length - 1) {
+     /* if (*//*index == productList.length - 1*//*true) {
         print(getQuantity());
         if (getQuantity() != '0' &&
             productList.length > 0 &&
@@ -1828,8 +1844,12 @@ class _SellerProfileState extends State<SellerProfile>
             showBottomWithoutAddOn(productList[0], 0);
             // Add Your Code here.
           });
+
+
         }
-      }
+      }*/
+
+
 
       List att = [], val = [];
       if (model.prVarientList![model.selVarient!].attr_name != null) {
@@ -2223,6 +2243,11 @@ class _SellerProfileState extends State<SellerProfile>
                                                       0))
                                                 removeFromCart(
                                                     index);
+                                              if (model.addOnList!.length == 0) {
+                                                if (persistentBottomSheetController == null) {
+                                                  showBottomWithoutAddOn(model, index);
+                                                }
+                                              }
                                             },
                                           ),
                                           Container(
@@ -2288,6 +2313,12 @@ class _SellerProfileState extends State<SellerProfile>
                                                         int.parse(model.qtyStepSize!))
                                                         .toString(),
                                                     []);
+                                              if (model.addOnList!.length == 0) {
+                                                if (persistentBottomSheetController == null) {
+                                                  showBottomWithoutAddOn(model, index);
+                                                }
+                                              }
+
                                             },
                                           )
                                         ],
@@ -2903,7 +2934,7 @@ class _SellerProfileState extends State<SellerProfile>
     //   addIdList.clear();
     // });
     persistentBottomSheetController =
-    await _scaffoldKey.currentState!.showBottomSheet(
+     _scaffoldKey.currentState!.showBottomSheet(
           (context) {
         return WillPopScope(
           onWillPop: back,
@@ -3083,6 +3114,7 @@ class _SellerProfileState extends State<SellerProfile>
                                                   onPressed: () {
                                                     persistentBottomSheetController!
                                                         .setState!(() {
+                                                        .setState!(() {
                                                       if (e.cartCount != "1") {
                                                         e.cartCount = (int.parse(
                                                                     e.cartCount!) -
@@ -3239,6 +3271,21 @@ class _SellerProfileState extends State<SellerProfile>
                 int.parse(productList[i].qtyStepSize!) -
                 1);
       }
+    }
+
+    return total.toString();
+  }
+  String getQuantity2() {
+    int total = 0;
+
+    for (var i = 0; i < productList.length; i++) {
+      var model = productList[i];
+
+        total = total +
+            (int.parse(model.prVarientList![model.selVarient!].cartCount!) +
+                int.parse(productList[i].qtyStepSize!) -
+                1);
+
     }
 
     return total.toString();

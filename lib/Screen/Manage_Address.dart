@@ -13,11 +13,12 @@ import '../Helper/user_custom_radio.dart';
 import '../Model/User.dart';
 import 'Add_Address.dart';
 import 'Cart.dart';
-import 'package:http/http.dart'as http;
+import 'package:http/http.dart' as http;
 
 class ManageAddress extends StatefulWidget {
   final bool? home;
   bool? fromBar = false;
+
   ManageAddress({Key? key, this.home, this.fromBar}) : super(key: key);
 
   @override
@@ -182,7 +183,49 @@ class StateAddress extends State<ManageAddress> with TickerProviderStateMixin {
       appBar: widget.fromBar == true
           ? getAppBar("Delivery Address", context)
           : getSimpleAppBar(getTranslated(context, "SHIPP_ADDRESS")!, context),
-      floatingActionButton: FloatingActionButton(
+      floatingActionButton: Ink(
+        decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(50),color: Colors.white,),
+
+        child: InkWell(
+          onTap: () async {
+            await Navigator.push(
+              context,
+              MaterialPageRoute(
+                  builder: (context) => AddAddress(
+                    update: false,
+                    index: addressList.length,
+                  )),
+            );
+            if (mounted) {
+              setState(() {
+                addModel.clear();
+                addAddressModel();
+              });
+            }
+          },
+          child: Container(
+            padding: EdgeInsets.all(10),
+            decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(50), color: colors.primary),
+            child: Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                const Icon(
+                  Icons.add,
+                  color: colors.whiteTemp,
+                ),
+                Text(
+                  'Add Address',style: const TextStyle(fontWeight: FontWeight.bold,color: colors.whiteTemp),
+                    overflow: TextOverflow.ellipsis,
+                    softWrap: true,
+                    maxLines: 1,
+                ),
+              ],
+            ),
+          ),
+        ),
+      ) /*FloatingActionButton(
         onPressed: () async {
           await Navigator.push(
             context,
@@ -200,7 +243,8 @@ class StateAddress extends State<ManageAddress> with TickerProviderStateMixin {
           }
         },
         child: const Icon(Icons.add),
-      ),
+      )*/,
+
       backgroundColor: Theme.of(context).colorScheme.lightWhite,
       body: _isNetworkAvail
           ? Column(
@@ -326,11 +370,15 @@ class StateAddress extends State<ManageAddress> with TickerProviderStateMixin {
               if (!ISFLAT_DEL) {
                 // if (oriPrice <
                 //     double.parse(addressList[selectedAddress!].freeAmt!)) {
-                print("${addressList[selectedAddress!].deliveryCharge}_______________");
-                delCharge =
-                    double.parse(addressList[selectedAddress!].deliveryCharge== '' ? '0.0' : addressList[selectedAddress!].deliveryCharge!);
+                print(
+                    "${addressList[selectedAddress!].deliveryCharge}_______________");
+                delCharge = double.parse(
+                    addressList[selectedAddress!].deliveryCharge == ''
+                        ? '0.0'
+                        : addressList[selectedAddress!].deliveryCharge!);
                 print('___________${delCharge}____kjhklhlkklhlkjkllkh______');
-                print('___________${addressList[selectedAddress!].address}____kjhklhlkklhlkjkllkh______');
+                print(
+                    '___________${addressList[selectedAddress!].address}____kjhklhlkklhlkjkllkh______');
                 // delCharge = double.parse(addressList[selectedAddress!].deliveryCharge!);
                 Navigator.pop(context, {
                   "address": addressList[selectedAddress!].address,
@@ -389,9 +437,12 @@ class StateAddress extends State<ManageAddress> with TickerProviderStateMixin {
         if (!error) {
           if (!ISFLAT_DEL) {
             if (addressList.length != 1) {
-              print('___________${addressList[selectedAddress!].freeAmt}__________');
+              print(
+                  '___________${addressList[selectedAddress!].freeAmt}__________');
               if (oriPrice <
-                  double.parse(addressList[selectedAddress!].freeAmt == '' ? '0.0' : addressList[selectedAddress!].freeAmt ?? '0.0')) {
+                  double.parse(addressList[selectedAddress!].freeAmt == ''
+                      ? '0.0'
+                      : addressList[selectedAddress!].freeAmt ?? '0.0')) {
                 delCharge =
                     double.parse(addressList[selectedAddress!].deliveryCharge!);
               } else
@@ -404,7 +455,9 @@ class StateAddress extends State<ManageAddress> with TickerProviderStateMixin {
               selAddress = addressList[0].id;
 
               if (totalPrice <
-                  double.parse(addressList[selectedAddress!].freeAmt == '' ? '0.0' : addressList[selectedAddress!].freeAmt ?? '0.0')) {
+                  double.parse(addressList[selectedAddress!].freeAmt == ''
+                      ? '0.0'
+                      : addressList[selectedAddress!].freeAmt ?? '0.0')) {
                 delCharge =
                     double.parse(addressList[selectedAddress!].deliveryCharge!);
               } else
@@ -501,15 +554,13 @@ class StateAddress extends State<ManageAddress> with TickerProviderStateMixin {
     ));
   }
 
-  checkAddressForDelivery() async{
+  checkAddressForDelivery() async {
     var headers = {
       'Cookie': 'ci_session=3555d518752c27d3f07a9fd57cc43c5496e988ac'
     };
-    var request = http.MultipartRequest('POST', Uri.parse('https://eatoz.in/app/v1/api/check_delivery_boy'));
-    request.fields.addAll({
-      'seller_id': '236',
-      'address_id': '121'
-    });
+    var request = http.MultipartRequest(
+        'POST', Uri.parse('https://eatoz.in/app/v1/api/check_delivery_boy'));
+    request.fields.addAll({'seller_id': '236', 'address_id': '121'});
 
     request.headers.addAll(headers);
 
@@ -517,9 +568,8 @@ class StateAddress extends State<ManageAddress> with TickerProviderStateMixin {
 
     if (response.statusCode == 200) {
       print(await response.stream.bytesToString());
-    }
-    else {
-    print(response.reasonPhrase);
+    } else {
+      print(response.reasonPhrase);
     }
   }
 }

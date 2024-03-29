@@ -2507,11 +2507,30 @@ class _HomePageState extends State<HomePage>
                                 physics: NeverScrollableScrollPhysics(),
                                 scrollDirection: Axis.vertical,
                                 itemBuilder: (c, index) {
-                                  print('___________${sellerList.length}__________');
                                   return InkWell(
                                     onTap: () {
                                       if (sellerList[index].online == "1") {
                                         Navigator.push(
+                                            context,
+                                            MaterialPageRoute(
+                                                builder: (context) =>
+                                                    SellerProfile(
+                                                      search: false,
+                                                      fromSearch: false,
+                                                      // catId: widget.catId,
+                                                      sellerID: sellerList[index]
+                                                          .seller_id
+                                                          .toString(),
+                                                      sellerStoreName:sellerList[index]
+                                                          .store_name
+                                                          .toString(),
+                                                      /*subCatId:
+                                                    subCatData[index]
+                                                    ["id"],*/
+                                                      sellerData:
+                                                      sellerList[index],
+                                                    )));
+                                        /*Navigator.push(
                                             context,
                                             MaterialPageRoute(
                                                 builder: (context) =>
@@ -2526,7 +2545,7 @@ class _HomePageState extends State<HomePage>
                                                               .toString(),
                                                       sellerData:
                                                           sellerList[index],
-                                                    )));
+                                                    )));*/
                                       } else {
                                         setSnackbar(
                                             "Restaurant is Close!!", context);
@@ -3935,6 +3954,27 @@ class _HomePageState extends State<HomePage>
                                       Navigator.push(
                                           context,
                                           MaterialPageRoute(
+                                              builder: (context) =>
+                                                  SellerProfile(
+                                                    fromSearch: false,
+                                                    // catId: widget.catId,
+                                                    sellerID: sponsorSellerList[index]
+                                                        .seller_id
+                                                        .toString(),
+                                                    sellerStoreName:sponsorSellerList[index]
+                                                        .store_name
+                                                        .toString(),
+                                                    /*subCatId:
+                                                    subCatData[index]
+                                                    ["id"],*/
+                                                    sellerData:
+                                                    sponsorSellerList[
+                                                    index],
+                                                  )));
+
+                                      /*Navigator.push(
+                                          context,
+                                          MaterialPageRoute(
                                               builder: (context) => SubCategory(
                                                     fromSearch: false,
                                                     title:
@@ -3948,7 +3988,7 @@ class _HomePageState extends State<HomePage>
                                                     sellerData:
                                                         sponsorSellerList[
                                                             index],
-                                                  )));
+                                                  )));*/
                                     } else {
                                       setSnackbar(
                                           "Restaurant is Close!!", context);

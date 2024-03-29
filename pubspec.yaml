@@ -41,7 +41,7 @@ dependencies:
   geolocator: ^9.0.2
   file_picker: 5.2.10
   shimmer:
-  geocoding: 2.0.3
+  geocoding: 2.1.1
   google_maps_place_picker_mb: ^2.0.0-mb.16
   flutter_html_to_pdf: ^0.7.0
   permission_handler: 10.4.3

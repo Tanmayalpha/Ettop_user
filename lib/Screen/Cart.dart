@@ -3159,7 +3159,7 @@ setState(() {
                                             onBtnSelected: _placeOrder
                                                 ? () {
                                                     checkoutState!(() {
-                                                      _placeOrder = false;
+                                                      //_placeOrder = false;
                                                     });
 
                                                     if (selAddress == null ||

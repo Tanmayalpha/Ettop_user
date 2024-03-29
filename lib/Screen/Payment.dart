@@ -168,8 +168,8 @@ class StatePayment extends State<Payment> with TickerProviderStateMixin {
       ];
     });
     if (widget.msg != '')
-      WidgetsBinding.instance!
-          .addPostFrameCallback((_) => setSnackbar(widget.msg!));
+      /*WidgetsBinding.instance!
+          .addPostFrameCallback((_) => setSnackbar(widget.msg!));*/
     buttonController = new AnimationController(
         duration: new Duration(milliseconds: 2000), vsync: this);
     buttonSqueezeanimation = new Tween(
